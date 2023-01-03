@@ -1,4 +1,4 @@
-### Deploy mongodb & mongo-express on k8s
+# Deploy mongodb & mongo-express on k8s
 
 ## step 1 - deploy mongo-secret.yaml 
 
@@ -32,3 +32,5 @@ FiX: to fix this, download to minikube first using:
 ## step 5 - assign ip to loadbalancer service/external service
 
     "minikube service <service-name>"
+    
+    This will open mongo express DB on your web browser. 
